@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.semi-circle-container {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.semi-circle-meter {
+  width: 100%;
+  height: auto;
+  transform: rotate(180deg);
+}
+
+.task-status-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.semi-circle-container h3 {
+  margin: 0;
+  font-size: 24px;
+}
